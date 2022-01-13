@@ -20,7 +20,7 @@ let weather = {
         document.querySelector(".wind").innerText = speed + " Km/h";
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
         document.querySelector(".weather").classList.remove("loading");
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?landscape," + name + "')"
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + description + "')"
     },
     search: function () {
         this.fetchWeather(document.querySelector(".searchBar").value);
