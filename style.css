@@ -4,7 +4,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(https://source.unsplash.com/1600x900/?city,landscape);
+    background-image: url(https://source.unsplash.com/1600x900/?kolkata,landscape);
     font-family: 'Source Sans Pro', sans-serif;
 }
 .card{ 
